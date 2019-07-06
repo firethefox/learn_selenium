@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+'''
+Created on 2019/6/15
+
+@author: laiyu
+'''
+
 from time import sleep
 from selenium import webdriver
 from PIL import Image,ImageEnhance
@@ -55,10 +63,16 @@ driver = webdriver.Firefox()
 driver.maximize_window()
 driver.get('http://www.189.cn/sc/')
 driver.implicitly_wait(5)
-driver.switch_to_frame("topLoginFrame")
-driver.find_element_by_xpath("//a[@id='loginJT']").click()
-driver.switch_to_default_content()
+# driver.switch_to_frame("topLoginFrame")
+now_window = driver.current_window_handle
+driver.find_element_by_xpath("//*[text()='自助服务']").click()
+# driver.switch_to_default_content()
 sleep(3)
+all_window = driver.window_handles
+for handle in all_window:
+    if handle != now_window:
+        driver.switch_to_window(handle)
+sleep(2)
 driver.find_element_by_xpath("//input[@id='txtAccount']").click()
 driver.find_element_by_xpath("//input[@id='txtAccount']").clear()
 driver.find_element_by_xpath("//input[@id='txtAccount']").send_keys(phonenum)
@@ -70,12 +84,12 @@ for i in range(5):
     imgElement = driver.find_element_by_xpath("//img[@id='imgCaptcha']")
     authCodeText = get_auth_code(driver,imgElement)
     n = 1
-    while len(authCodeText) != 4:
+    while len(authCodeText) != 4 or (not authCodeText.encode('utf-8').isalnum()):
         driver.find_element_by_xpath("//img[@id='imgCaptcha']").click()
         print('更换验证码%d次' % n)
         n+=1
         sleep(2)
-        authCodeText = get_auth_code(driver,imgElement)                
+        authCodeText = get_auth_code(driver,imgElement)           
     driver.find_element_by_xpath("//input[@id='txtCaptcha']").send_keys(authCodeText)
     driver.find_element_by_xpath("//a[@id='loginbtn']").click()
     sleep(2)
@@ -85,8 +99,10 @@ for i in range(5):
             break        
     except:
         print('验证码错误%s次' % (i+1))
-sleep(5)
-driver.find_element_by_xpath("//*[@id='77169890c56011e567faf0ef94b55375']").click()
+        if i == 4:
+            driver.quit()
+sleep(3)
+driver.find_element_by_xpath("//div[text()='积分服务' and @style='display: block']").click()
 driver.find_element_by_xpath("//*[text()='签到/查询/兑换']").click()
 sleep(5)
 driver.switch_to_frame("bodyIframe")
