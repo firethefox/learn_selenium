@@ -1039,3 +1039,41 @@ JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastco
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
 libpng warning: iCCP: known incorrect sRGB profile
+1562648763790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.02KdywaDJT63"
+JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not defined
+1562648765212	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562648765213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562648765213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562648765214	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562648772924	Marionette	INFO	Listening on port 50239
+1562648773131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562648786720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562636618241%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1562648798800	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 488: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562648836568	Marionette	INFO	Stopped listening on port 50239
+[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+U 5212, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: known incorrect sRGB profile
