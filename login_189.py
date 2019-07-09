@@ -5,7 +5,6 @@ Created on 2019/6/15
 
 @author: laiyu
 '''
-
 from time import sleep
 from selenium import webdriver
 from PIL import Image,ImageEnhance

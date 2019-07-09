@@ -901,3 +901,141 @@ JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not def
 1562378706752	Marionette	WARN	TLS certificate errors will be ignored for this session
 1562378719477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:223:64
+[Parent 5168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561999721/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561999721/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561999721/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1561999721/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562379014964	Marionette	INFO	Stopped listening on port 57810
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8428, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: known incorrect sRGB profile
+1562552507683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.FqLzKYsksYeb"
+JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not defined
+1562552510617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562552510617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562552510618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562552510618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 9276, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562256438/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562552519685	Marionette	INFO	Listening on port 60868
+1562552519916	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552524838	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562552532507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562552548434	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+1562552601128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.TGz8MCXiv433"
+JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not defined
+1562552603808	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562552603809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562552603809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562552603809	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562552613059	Marionette	INFO	Listening on port 61055
+1562552613421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562552625737	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://login.189.cn/web/static/js/js-jq.js:4:26581
+ajax@https://login.189.cn/web/static/js/js-jq.js:4:22184
+$.postJSON@https://login.189.cn/web/static/js/jquery.fn-1.0.0.min.js:1:56
+loadLoginCaptcha@https://login.189.cn/web/static/login/js/loginNew.min.js?v=1015:1:19377
+@https://login.189.cn/web/static/login/js/loginNew.min.js?v=1015:1:8907
+dispatch@https://login.189.cn/web/static/js/js-jq.js:3:12444
+add/r.handle@https://login.189.cn/web/static/js/js-jq.js:3:9173
+trigger@https://login.189.cn/web/static/js/js-jq.js:3:14474
+trigger@https://login.189.cn/web/static/js/js-jq.js:3:11229
+trigger/<@https://login.189.cn/web/static/js/js-jq.js:3:18991
+each@https://login.189.cn/web/static/js/js-jq.js:2:2881
+each@https://login.189.cn/web/static/js/js-jq.js:2:846
+trigger@https://login.189.cn/web/static/js/js-jq.js:3:18967
+n.fn[b]@https://login.189.cn/web/static/js/js-jq.js:4:16324
+@https://login.189.cn/web/static/login/js/loginNew.min.js?v=1015:1:8763
+dispatch@https://login.189.cn/web/static/js/js-jq.js:3:12444
+add/r.handle@https://login.189.cn/web/static/js/js-jq.js:3:9173
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:189:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+[Parent 6312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562256438/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562256438/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6312, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562256438/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562552698076	Marionette	INFO	Stopped listening on port 61055
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: known incorrect sRGB profile
+1562647567846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.xW1fzAfcPvQt"
+1562647669228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.yuAzn1hM7hdU"
+JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not defined
+1562647670539	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562647670540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562647670540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562647670540	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562647676606	Marionette	INFO	Listening on port 56824
+1562647677109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562647683621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647689328	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647691127	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647703660	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647705454	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647709384	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562647720728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562636618241%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 11020, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11020, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562648203130	Marionette	INFO	Stopped listening on port 56824
+[GPU 8716, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: known incorrect sRGB profile
+1562648538669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\laiyu\\AppData\\Local\\Temp\\rust_mozprofile.VD4o22vJZzXm"
+JavaScript error: c141ydjai4m.cfg, line 2: ReferenceError: Components is not defined
+1562648539923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562648539923	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562648539924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562648539924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562648545915	Marionette	INFO	Listening on port 49998
+1562648546471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562648558353	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+JavaScript error: https://m.sc.189.cn/handlecloud-page/point/index01.html?fastcode=20000335&cityCode=sc, line 729: TypeError: e is undefined
+[Parent 10392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/comm[Parent 10392, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562648605140	Marionette	INFO	Stopped listening on port 49998
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+libpng warning: iCCP: known incorrect sRGB profile
